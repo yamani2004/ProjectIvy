@@ -11,6 +11,7 @@ let requestTimes = [];
 let failedRequests = 0;
 let results = [];
 let extractedNames = new Set();
+let totalResults = 0; // ✅ New variable to track total results
 
 async function fetchSuggestions(query) {
     try {
@@ -23,12 +24,15 @@ async function fetchSuggestions(query) {
         totalTimeTaken += timeTaken;
         requestTimes.push(timeTaken);
 
+        const suggestions = response.data.results || []; // ✅ Extract results safely
+        totalResults += suggestions.length; // ✅ Count total results
+
         return {
             query,
             status: response.status,
             timeTaken: timeTaken.toFixed(2),
             timestamp: new Date().toISOString(),
-            results: response.data.results || [],
+            results: suggestions,
         };
     } catch (error) {
         failedRequests++;
@@ -87,6 +91,7 @@ async function extractAllNames() {
     console.log(`🐢 Slowest response time: ${maxResponseTime} ms`);
     console.log(`⏳ Total execution time: ${totalExecutionTime.toFixed(2)} ms`);
     console.log(`❌ Failed requests: ${failedRequests}`);
+    console.log(`📈 Total results found in v1 API: ${totalResults}`); // ✅ Added total results count
 
     // Save results to file
     const outputData = {
@@ -97,6 +102,7 @@ async function extractAllNames() {
             minResponseTime,
             maxResponseTime,
             failedRequests,
+            totalResults, // ✅ Store total results count
             timestamp: new Date().toISOString(),
         },
         queries: results,
@@ -106,3 +112,5 @@ async function extractAllNames() {
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(outputData, null, 2), 'utf-8');
     console.log(`📁 Results saved to ${OUTPUT_FILE}`);
 })();
+
+

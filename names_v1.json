@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "totalRequests": 26,
+    "totalTimeTaken": "15810.53",
+    "avgResponseTime": "98.50",
+    "minResponseTime": "78.13",
+    "maxResponseTime": "167.57",
+    "failedRequests": 0,
+    "totalResults": 0,
+    "timestamp": "2025-03-24T02:52:03.151Z"
+  },
+  "queries": [
+    {
+      "query": "a",
+      "status": 200,
+      "timeTaken": "167.57",
+      "timestamp": "2025-03-24T02:51:47.505Z",
+      "results": []
+    },
+    {
+      "query": "b",
+      "status": 200,
+      "timeTaken": "100.34",
+      "timestamp": "2025-03-24T02:51:48.122Z",
+      "results": []
+    },
+    {
+      "query": "c",
+      "status": 200,
+      "timeTaken": "85.89",
+      "timestamp": "2025-03-24T02:51:48.714Z",
+      "results": []
+    },
+    {
+      "query": "d",
+      "status": 200,
+      "timeTaken": "111.86",
+      "timestamp": "2025-03-24T02:51:49.329Z",
+      "results": []
+    },
+    {
+      "query": "e",
+      "status": 200,
+      "timeTaken": "84.84",
+      "timestamp": "2025-03-24T02:51:49.923Z",
+      "results": []
+    },
+    {
+      "query": "f",
+      "status": 200,
+      "timeTaken": "78.13",
+      "timestamp": "2025-03-24T02:51:50.502Z",
+      "results": []
+    },
+    {
+      "query": "g",
+      "status": 200,
+      "timeTaken": "88.70",
+      "timestamp": "2025-03-24T02:51:51.103Z",
+      "results": []
+    },
+    {
+      "query": "h",
+      "status": 200,
+      "timeTaken": "78.93",
+      "timestamp": "2025-03-24T02:51:51.684Z",
+      "results": []
+    },
+    {
+      "query": "i",
+      "status": 200,
+      "timeTaken": "115.08",
+      "timestamp": "2025-03-24T02:51:52.312Z",
+      "results": []
+    },
+    {
+      "query": "j",
+      "status": 200,
+      "timeTaken": "107.75",
+      "timestamp": "2025-03-24T02:51:52.923Z",
+      "results": []
+    },
+    {
+      "query": "k",
+      "status": 200,
+      "timeTaken": "84.78",
+      "timestamp": "2025-03-24T02:51:53.523Z",
+      "results": []
+    },
+    {
+      "query": "l",
+      "status": 200,
+      "timeTaken": "97.54",
+      "timestamp": "2025-03-24T02:51:54.122Z",
+      "results": []
+    },
+    {
+      "query": "m",
+      "status": 200,
+      "timeTaken": "101.14",
+      "timestamp": "2025-03-24T02:51:54.733Z",
+      "results": []
+    },
+    {
+      "query": "n",
+      "status": 200,
+      "timeTaken": "106.22",
+      "timestamp": "2025-03-24T02:51:55.346Z",
+      "results": []
+    },
+    {
+      "query": "o",
+      "status": 200,
+      "timeTaken": "103.82",
+      "timestamp": "2025-03-24T02:51:55.965Z",
+      "results": []
+    },
+    {
+      "query": "p",
+      "status": 200,
+      "timeTaken": "104.83",
+      "timestamp": "2025-03-24T02:51:56.574Z",
+      "results": []
+    },
+    {
+      "query": "q",
+      "status": 200,
+      "timeTaken": "89.33",
+      "timestamp": "2025-03-24T02:51:57.179Z",
+      "results": []
+    },
+    {
+      "query": "r",
+      "status": 200,
+      "timeTaken": "82.34",
+      "timestamp": "2025-03-24T02:51:57.777Z",
+      "results": []
+    },
+    {
+      "query": "s",
+      "status": 200,
+      "timeTaken": "78.37",
+      "timestamp": "2025-03-24T02:51:58.363Z",
+      "results": []
+    },
+    {
+      "query": "t",
+      "status": 200,
+      "timeTaken": "106.05",
+      "timestamp": "2025-03-24T02:51:58.981Z",
+      "results": []
+    },
+    {
+      "query": "u",
+      "status": 200,
+      "timeTaken": "106.90",
+      "timestamp": "2025-03-24T02:51:59.603Z",
+      "results": []
+    },
+    {
+      "query": "v",
+      "status": 200,
+      "timeTaken": "97.93",
+      "timestamp": "2025-03-24T02:52:00.215Z",
+      "results": []
+    },
+    {
+      "query": "w",
+      "status": 200,
+      "timeTaken": "110.06",
+      "timestamp": "2025-03-24T02:52:00.833Z",
+      "results": []
+    },
+    {
+      "query": "x",
+      "status": 200,
+      "timeTaken": "105.50",
+      "timestamp": "2025-03-24T02:52:01.453Z",
+      "results": []
+    },
+    {
+      "query": "y",
+      "status": 200,
+      "timeTaken": "78.48",
+      "timestamp": "2025-03-24T02:52:02.033Z",
+      "results": []
+    },
+    {
+      "query": "z",
+      "status": 200,
+      "timeTaken": "88.68",
+      "timestamp": "2025-03-24T02:52:02.633Z",
+      "results": []
+    }
+  ],
+  "extractedNames": []
+}
+
+
+📊 Total API requests made: 286
+⏱ Average response time per request: 102.92 ms
+⚡ Fastest response time: 54.81 ms
+🐢 Slowest response time: 472.35 ms
+⏳ Total execution time: 175147.46 ms
+❌ Failed requests: 0
+📈 Total results found in v1 API: 730
+📁 Results saved to names.json
