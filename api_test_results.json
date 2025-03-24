@@ -1,0 +1,237 @@
+{
+  "testDate": "2025-03-24T01:08:34.424Z",
+  "totalTimeElapsed": 115,
+  "results": [
+    {
+      "endpoint": "/",
+      "method": "GET",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 45
+    },
+    {
+      "endpoint": "/help",
+      "method": "GET",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 5
+    },
+    {
+      "endpoint": "/help",
+      "method": "POST",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 7
+    },
+    {
+      "endpoint": "/help",
+      "method": "PUT",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/help",
+      "method": "DELETE",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "a"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "b"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 4
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "c"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "j"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "m"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "s"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "t"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v2/autocomplete",
+      "method": "GET",
+      "params": null,
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "sa"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "jo"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "ma"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "th"
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "a",
+        "limit": 5
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 3
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "a",
+        "count": 5
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    },
+    {
+      "endpoint": "/v1/autocomplete",
+      "method": "GET",
+      "params": {
+        "query": "a",
+        "max": 5
+      },
+      "data": null,
+      "status": "N/A",
+      "responseData": null,
+      "error": "",
+      "timeElapsed": 2
+    }
+  ]
+}
