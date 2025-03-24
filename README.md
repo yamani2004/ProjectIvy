@@ -86,6 +86,15 @@ To estimate API rate limits dynamically, the following scripts are used:
 - If v3 stops at 200 RPM, its limit is 200 RPM.
 - This pattern allows extrapolation of rate limits for undocumented APIs.
 
+### **Interpreting Results**
+| API Version | Estimated Rate Limit (RPM) |
+|-------------|---------------------------|
+| v1          | ~60 RPM                    |
+| v2          | ~100 RPM                   |
+| v3          | ~200 RPM                   |
+
+This estimation method helps determine API constraints dynamically.
+
 ## **Example API Responses**
 ### **1. Root Endpoint (`/`)**
 **Request:**
