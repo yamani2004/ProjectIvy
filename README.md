@@ -1,4 +1,5 @@
-﻿# ProjectIvy
+#ProjectIvy
+
 # API Exploration and Documentation
 
 ## Overview
@@ -11,6 +12,7 @@ This project systematically tests an API to discover endpoints, measure response
 - **API Documentation Generation:** Produces a structured `api_documentation.md` with endpoint descriptions and response examples.
 - **Testing Plan Generation:** Creates `api_testing_plan.md` with suggested test cases and priority levels.
 - **Automated Test Script:** Generates `api_tests.js` for immediate API testing.
+- **Rate Limiting Investigation:** Analyzes API constraints and rate limits.
 
 ## File Structure and Descriptions
 ```
@@ -35,27 +37,42 @@ This project systematically tests an API to discover endpoints, measure response
 │── response.json
 ```
 
-### **Core Script Files**
+### **1. Implementation of API Testing and Documentation**
+#### **Core Script Files**
 - **`api-explorer.js`**: Discovers API endpoints, logs responses, and saves data in `response.json`.
 - **`api-documentation-generator.js`**: Generates `api_documentation.md` and `api_testing_plan.md` based on `response.json`.
 - **`api-tester.js`**: Runs test cases against the API and logs results in `api_test_results.json`.
 - **`api_tests.js`**: Contains predefined test cases for automated API validation.
 - **`enhanced-api-tester.js`**: An advanced version of `api-tester.js` with better error handling and logging.
 
-### **Generated Documentation and Reports**
+### **2. Explanation of Methodology and Key Insights**
+- The approach involves **automated endpoint discovery**, **response logging**, **rate limiting analysis**, and **structured API testing**.
+- All findings, including error patterns, API constraints, and performance insights, are documented.
+- The final documentation summarizes the API's capabilities and response behaviors.
+
+### **3. Tools and Scripts Developed for API Analysis**
+#### **Generated Documentation and Reports**
 - **`api_documentation.md`**: Structured summary of API endpoints with request/response examples.
 - **`api_testing_plan.md`**: Suggested test cases with priority levels.
 - **`api_test_results.json`**: Logs results of executed test cases.
 
-### **API Request Tracking and Statistics**
+#### **API Request Tracking and Statistics**
 - **`count_api_requests_v1.js`**, **`count_api_requests_v2.js`**, **`count_api_requests_v3.js`**: Analyze API request frequency.
 - **`response.json`**: Stores raw API responses and timing data.
 
-### **Name Extraction and Processing**
+#### **Name Extraction and Processing**
 - **`extractNames.js`**: Extracts names from API responses.
 - **`extracted_names.json`**: Stores the extracted names.
 - **`extraction_stats.json`**: Logs statistics about name extraction.
 - **`names1.json`**, **`names_v2.json`**, **`names_v3.json`**: Different versions of extracted name datasets.
+
+### **4. Summary of API Requests Made**
+- The total number of requests made is logged in `response.json` and `api_test_results.json`.
+- The scripts automatically track the number of API calls and responses received.
+
+### **5. Volume of Data Retrieved from the API**
+- The extracted data is stored in `extracted_names.json`, `names_v2.json`, and `names_v3.json`.
+- The count of retrieved records is analyzed in `extraction_stats.json`.
 
 ## **Example API Responses**
 ### **1. Root Endpoint (`/`)**
@@ -115,6 +132,5 @@ node api_tests.js
 ```
 
 ## **Conclusion**
-This project provides a structured approach to exploring, documenting, and testing an API. By automating endpoint discovery and response analysis, it helps developers understand the API's capabilities and plan further testing efficiently.
-
+This project provides a structured approach to exploring, documenting, and testing an API. By automating endpoint discovery, analyzing rate limits, and logging responses, it helps developers understand the API's constraints and performance while generating useful documentation.
 
